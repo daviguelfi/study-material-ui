@@ -5,9 +5,7 @@ import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
 import {
   Card,
-  CardActions,
   CardContent,
-  Button,
   Typography
 } from "@material-ui/core/";
 
@@ -16,7 +14,6 @@ const useStyles = makeStyles({
     minWidht: 276,
     maxWidth: 376,
     backgroundColor: "#e9e9e9",
-    margin: 16,
     borderRadius: 4,
     margin: 20,
     padding: 8
